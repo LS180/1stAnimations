@@ -36,7 +36,7 @@ function myMove() {                                           // defines myMove 
   function frame() {                                          //defines frame;frame is used to set the interval/timing of object's motion
     if (pos == 350) {                                         //if variable pos changes to 350, interval will be cleared
       clearInterval(id);
-    } else {  //,but if interval is != 350, var pos will increment by 1 px/pixel R & 1 px L, making elem/myAnimation move 1 px L & 1 px R
+    } else {//,but if interval is != 350, var pos will increment by 1 px/pixel up & 1 px L, making elem/myAnimation move 1 px L & 1 px up
       pos++;
       elem.style.top = pos + 'px';
       elem.style.left = pos + 'px';
@@ -47,14 +47,3 @@ function myMove() {                                           // defines myMove 
 
 </body>
 </html>
-************THE ANIMATION CODE****************************
-************TIME INTERVAL*****************************
-var id = setInterval(frame, 5);
-
-function frame() {
-    if (/* test for finished */) {
-        clearInterval(id);
-    } else {
-        /* code to change the element style */
-    }
-}
