@@ -1,4 +1,4 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
 <style>
 #myContainer {                   //#myContainer=background
