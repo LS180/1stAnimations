@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <style>
-#myContainer {                   //#myContainer=background
+#myContainer {                   /*#myContainer=background*/
   width: 400px;
   height: 400px;
   position: relative;
   background: yellow;
 }
-#myAnimation {                  //#myAnimation=object that moves
+#myAnimation {                  /*#myAnimation=object that moves*/
   width: 50px;
   height: 50px;
   position: absolute;
@@ -17,15 +17,15 @@
 <body>
 
 <p>
-<button onclick="myMove()">Click Me</button>            //button--<button onclick="myMove()">[defines what happens when button is                                                                 clicked]-->Click Me<[writing inside button]--</button>[closes button tag:<button                                                         onclick="myMove()">]
+<button onclick="myMove()">Click Me</button>            /*button--<button onclick="myMove()">[defines what happens when button is                                                                 clicked]-->Click Me<[writing inside button]--</button>[closes button tag:<button                                                         onclick="myMove()">]*/
 </p>
 
 
 
 <h1>My First JavaScript Animation</h1>
 
-<div id="myContainer">                      //vital for background to work
-<div id="myAnimation"></div>                //vital for object to work
+<div id="myContainer">                      /*vital for background to work*/
+<div id="myAnimation"></div>                /*vital for object to work*/
 </div>
 
 <script>                                                      //starts/contains the moving function for the object
