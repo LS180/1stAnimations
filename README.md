@@ -1,28 +1,13 @@
-# 1stAnimations
-*********BASIC WEBPAGE FOR ANIMATIONS*****************
-<!DOCTYPE html>
-<html>
-<body>
-
-<h1>My First JavaScript Animation</h1>
-
-<div id="myContainer">
-<div id="myAnimation">My animation will go here</div>
-</div>
-
-</body>
-</html>
-**********STYLING THE ELEMENTS***************************************
 <!Doctype html>
 <html>
 <style>
-#myContainer {
+#myContainer {                   //#myContainer=background
   width: 400px;
   height: 400px;
   position: relative;
   background: yellow;
 }
-#myAnimation {
+#myAnimation {                  //#myAnimation=object that moves
   width: 50px;
   height: 50px;
   position: absolute;
@@ -33,8 +18,8 @@
 
 <h1>My First JavaScript Animation</h1>
 
-<div id="myContainer">
-<div id="myAnimation"></div>
+<div id="myContainer">                      //vital for background to work
+<div id="myAnimation"></div>                //vital for object to work
 </div>
 
 </body>
