@@ -17,7 +17,8 @@
 <body>
 
 <p>
-<button onclick="myMove()">Click Me</button>            /*button--<button onclick="myMove()">[defines what happens when button is                                                                 clicked]-->Click Me<[writing inside button]--</button>[closes button tag:<button                                                         onclick="myMove()">]*/
+<button onclick="myMove()">Click Me</button>            
+/*button--<button onclick="myMove()">[defines what happens when button is clicked]-->Click Me<[writing inside button]--</button>[closes button tag:<button onclick="myMove()">]*/
 </p>
 
 
